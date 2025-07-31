@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake--</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <nav>
+        <h1><i class="fa-solid fa-cake-candles"></i>Farzu's Cake</h1>
+    <div class="nav-list">
+        <ul>
+            <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+               <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
+    <button class="btn2">Order Now</button>
+    <button id="menu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <!-- section one -->
+ <div class="container-1">
+   <!-- order now -->
+    <div id="order-btn-page" class="order-btn-page">
+       <button onclick="cross2()" id="menu-cross"><i class="fa-solid fa-xmark"></i></button>
+      <h3>we make customised Cake Also</h3>
+       <p>Please Contact us with this Phone No.<br>
+      01316216995 for customised cake.<br>
+   </p>
+   <a href="#four">View our Menu</a>
+    </div>
+   <!-- menu-opening page -->
+    <div class="menu-page" id="menu-page">
+      <button onclick="cross()" id="menu-cross"><i class="fa-solid fa-xmark"></i></button>
+     <ul> 
+            <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+               <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+        </ul>
+        <button id="btn">Order Now</button>
+    </div>
+
+
+    <div class="container-1-body">
+       <div class="con1-body-txt">
+         <h1>We Made The Best Cake With Friendly Price</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus<br>
+             alias, itaque adipisci pariatur, dolor et numquam inventore ad earum<br>
+              suscipit dignissimos natus fugit id tempora neque dolores voluptatibus<br>
+               error! Natus.</p>
+
+        <div class="icons">
+           <i class="fa-brands fa-square-facebook"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-tiktok"></i>
+           <i class="fa-brands fa-youtube"></i>
+           <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        
+       </div>
+       <img src="./home-removebg-preview.png" alt="" srcset="">
+    </div>
+
+ </div>
+
+ <!-- section 2 -->
+
+ <div class="container-2">
+    <img src="./makecake.jpg">
+    <div class="container-2-body-txt">
+      <h1>About Us <div class="line"></div></h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sit sed a excepturi cupiditate nostrum itaque aut maxime ea
+           minima quas saepe aperiam dolores iusto numquam, cumque mollitia.
+            Tenetur, incidunt ab?.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sit sed a excepturi cupiditate nostrum itaque aut maxime ea
+           minima quas saepe aperiam dolores iusto numquam, cumque mollitia.
+            Tenetur, incidunt ab?.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sit sed a excepturi cupiditate nostrum itaque aut maxime ea
+           minima quas saepe aperiam dolores iusto numquam, cumque mollitia.
+            Tenetur, incidunt ab?.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sit sed a excepturi cupiditate nostrum itaque aut maxime ea
+           minima quas saepe aperiam dolores iusto numquam, cumque mollitia.
+            Tenetur, incidunt ab?.</p>
+    <button id="btn">Order Now</button>
+   </div>
+ </div>
+
+ <!-- section 3 -->
+  <div class="container-3">
+   <div class="container-3-body">
+      <h1>Open Hours</h1>
+      <div class="list-time-box">
+         <div class="box">
+            <p>MONDAY<br>
+            10AM-7PM</p>
+
+         </div>
+
+         <div class="box">
+            <p>TUESDAY<br>
+            10AM-7PM</p>
+
+         </div>
+
+
+         <div class="box">
+            <p>WEDNESDAY<br>
+            10AM-7PM</p>
+
+         </div>
+
+
+         <div class="box">
+            <p>THURSDAY<br>
+            10AM-7PM</p>
+
+         </div>
+
+
+         <div class="box">
+            <p>FRIDAY<br>
+            10AM-7PM</p>
+
+         </div>
+      </div>
+
+      <div class="sounday">
+         <p>SUNDAY<br>
+         24 HOURS</p>
+      </div>
+   </div>
+  </div>
+
+<!-- section 4 -->
+ <div class="container-4" id="four">
+   <!-- order page  -->
+   <div class="order-page" id="order-page">
+      <button onclick="ended()" id="order-cross"><i class="fa-solid fa-xmark"></i></button>
+      <form action="https://api.web3forms.com/submit" method="POST">
+       
+<h3>Confirm Your Order Now</h3>
+<p>If you need customised Cakes.Please feel free to contact our number<br>
+   01316216995 or Decsribe in the Form.</p>
+    <input type="hidden" name="access_key" value="63bd9ef4-bb28-45d8-a798-e261ccae172c">
+<input type="text"  id="input-name" placeholder="Enter Your Name..." name="first_name">
+<input type="text"  id="input-adress" placeholder="Enter Your Adress..." name="Adress">
+<!-- <input type="email"  id="input-email" placeholder="Enter Your email..." name="email"> -->
+<input type="text"  id="input-phone" placeholder="Enter Your Phone No..." name="Phone No" >
+<textarea  id="input-text" placeholder="Describe about your cake..."  name="Description"></textarea>
+<!-- <input type="text" id="input-qty" placeholder="Set Quentity"> -->
+
+<input type="text"  id="input-total"  name="message">
+<input type="text"  id="input-cakeName" name="email">
+<button id="order">Confirm Your Order</button>
+</form>
+   </div>
+
+
+   <h1>Our Sweet Menu<div class="line"></div></h1>
+
+   <div class="all-menu">
+      <div class="cart">
+         <img src="./minivanilla.jpg">
+         <h3 id="name1">mini vanilla Cake</h3>
+         <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price1">160/-</h3>
+            <button class="btn" id="btn1">Buy Now</button>
+      </div>
+
+
+
+      <div class="cart">
+         <img src="./strawberryflavour1pound.jpg">
+         <h3 id="name2">Strawberry flavour 1pound</h3>
+          <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price2">650/-</h3>
+            <button class="btn" id="btn2">Buy Now</button>
+      </div>
+
+
+
+      <div class="cart">
+         <img src="./minichocolatecake.jpg">
+         <h3 id="name3">mini chocolate cake</h3>
+          <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price3">160/-</h3>
+            <button class="btn" id="btn3">Buy Now</button>
+      </div>
+
+
+
+
+      <div class="cart">
+         <img src="./chocolateflavour1pound.jpg">
+         <h3 id="name4">chocolate flavour 1pound</h3>
+          <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price4">700/-</h3>
+            <button class="btn" id="btn4">Buy Now</button>
+      </div>
+
+
+
+
+      <div class="cart">
+         <img src="./vanilaflavour1pound.jpg">
+         <h3 id="name5">Vanila flavour 1pound</h3>
+          <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price5">550/-</h3>
+            <button class="btn" id="btn5">Buy Now</button>
+      </div>
+
+
+
+
+      <div class="cart">
+         <img src="./jarcake.jpg">
+         <h3 id="name6">Jar cake </h3>
+         <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price6">160/-</h3>
+            <button class="btn" id="btn6">Buy Now</button>
+      </div>
+
+
+
+
+      <div class="cart">
+         <img src="./500mlchocolate.jpg">
+         <h3 id="name7">500ML chocolate blust</h3>
+         <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price7">380/-</h3>
+            <button class="btn" id="btn7">Buy Now</button>
+      </div>
+
+
+
+
+
+      <div class="cart">
+         <img src="./500mldream.jpg">
+         <h3 id="name8">500 ML dream Cake</h3>
+        <p>Customize cake extra charge<br>
+            Describe in the Order Section.</p>
+            <h3 id="price8">350/-</h3>
+            <button class="btn" id="btn8">Buy Now</button>
+      </div>
+   </div>
+ </div>
+<!-- section 5 -->
+
+<div class="container-5">
+   <h1>What People Say</h1>
+   <!-- Slider main container -->
+<div class="swiper my-swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="review">
+         <img src="./zibran.jpg">
+         <p>Most Dalicious and there delevary was to fast.Thanks To Farzu </p>
+      
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="review">
+         <img src="./mujammil.jpg">
+         <p>Just oshadharon.Ami jemonta cheyecilam tik amar design e cake peyechi.Thank you Farzu Apu</p>
+      
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="review">
+         <img src="./ib.jpg">
+         <p>Ki bole dhonnobad divo.Just Awesome Apu.Thanks Farzu Apu</p>
+      
+      </div>
+    </div>
+
+
+    <div class="swiper-slide">
+      <div class="review">
+         <img src="./ishmam.jpg">
+         <p>Thank you.Cake ta valoi chilo.Desgin tao oshadaron.</p>
+      
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="review">
+         <img src="./home-removebg-preview.png">
+         <p>Thank you Farzu Apu</p>
+      
+      </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+</div>
+
+<!-- section 6 -->
+<div class="container-6" id="six">
+ <h1>Gallery<div class="line"></div></h1>
+ <div class="all-image">
+  <img src="./500mlchocolate.jpg">
+  <img src="./500mldream.jpg">
+  <img src="./chocolateflavour1pound.jpg">
+  <img src="./jarcake.jpg">
+  <img src="./minichocolatecake.jpg">
+  <img src="./minipremiumchocolate.jpg">
+  <img src="./home-removebg-preview.png">
+  <img src="./minivanilla.jpg">
+  <img src="./strawberryflavour1pound.jpg">
+ </div>
+</div>
+
+
+<!-- section 7 -->
+ <footer class="container-7">
+   <div class="container-7-body">
+      <div class="logo">
+          <h1><i class="fa-solid fa-cake-candles"></i>Farzu's Cake</h1>
+          <p>feel free to contact with us.We will try our<br>
+            best for setiesfying you with our services.</p>
+      </div>
+
+
+      <div class="footer-list-1">
+         
+         <ul>
+           <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+               <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+         </ul>
+      </div>
+
+
+      <div class="footer-list-2">
+         <ul>
+           <li><a href="#">Help</a></li>
+             <li><a href="#">Blogs</a></li>
+              <li><a href="#">FAQ</a></li>
+               <li><a href="#">News</a></li>
+                <li><a href="#">Support</a></li>
+         </ul>
+      </div>
+
+
+
+      <div class="footer-list-3">
+         <div class="icons">
+           <i class="fa-brands fa-square-facebook"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-tiktok"></i>
+           <i class="fa-brands fa-youtube"></i>
+           <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="email-phone">
+         <p>01316216995</p>
+        <p>ajhar500@gmail.com</p>
+        </div>
+      </div>
+   </div>
+
+ </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script src="script.js"></script>   
+</body>
+</html>
